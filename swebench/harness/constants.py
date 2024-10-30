@@ -584,7 +584,7 @@ SPECS_ASTROPY.update(
         k:  {
             "python": "3.6",
             "install": "python -m pip install -e .[test] --verbose",
-            "packages": "setuptools==38.2.4",
+            "packages": "setuptools==56.0.0",
             "pip_packages": [
                 "attrs==17.3.0",
                 "exceptiongroup==0.0.0a0",

@@ -592,7 +592,7 @@ SPECS_ASTROPY.update(
                 "hypothesis==3.44.2",
                 "cython==0.27.3",
                 "jinja2==2.10",
-                "MarkupSafe==1.0",
+                "MarkupSafe",
                 "numpy==1.16.0",
                 "packaging==16.8",
                 "pluggy==0.6.0",

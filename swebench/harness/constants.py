@@ -583,7 +583,7 @@ SPECS_ASTROPY.update(
     {
         k:  {
             "python": "3.6",
-            "install": "python -m pip install -e .[test] --verbose",
+            "install": "python -m pip install --upgrade pip setuptools wheel && python -m pip install --force-reinstall numpy && python -m pip install -e .[test] --verbose",
             "packages": "setuptools==56.0.0",
             "pip_packages": [
                 "attrs==17.3.0",

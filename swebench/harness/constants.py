@@ -544,7 +544,7 @@ for k in ["7.2", "7.3", "7.4", "8.0", "8.1"]:
 for k in ["8.0", "8.1"]:
     SPECS_SPHINX[k]["python"] = "3.10"
 
-SPECS_ = {
+SPECS_ASTROPY = {
     k: {
         "python": "3.9",
         "install": "pip install -e .[test] --verbose",
